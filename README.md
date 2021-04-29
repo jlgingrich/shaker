@@ -14,7 +14,7 @@
 
 ## Overview
 
-**Shaker** is a command-line password management system built using MySQL and Python. It safely stores multiple users' passwords as an encrypted binary token inside a MySQL database through Fernet symmetric encryption. The Fernet encryption function is initialized by the *salt* and *pepper* the user enters into the system at the start of a session, both of which can be arbitrarily long and complex to allow for increased security. Once initialized with these parameters, the system allows the user to store and query , as well as assign a simple identifier to the current state of the encryption function that will be retrieved when the function is initialized with the same *salt* and *pepper*.
+**Shaker** is a command-line password management system built using MySQL and Python. It safely stores multiple users' passwords as an encrypted binary token inside a MySQL database through Fernet symmetric encryption. The Fernet encryption function is initialized by the *salt* and *pepper* the user enters into the system at the start of a session, both of which can be arbitrarily long and complex to allow for increased security. Once initialized with these parameters, the system allows the user to store and query, as well as assign a simple identifier to the current state of the encryption function that will be retrieved when the function is initialized with the same *salt* and *pepper*, essentially a username.
 
 ## Installation
 
